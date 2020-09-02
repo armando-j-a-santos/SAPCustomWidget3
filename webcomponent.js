@@ -9,28 +9,14 @@
             style="font-size: 14px; border-color: rgb(191, 191, 191); 
             background-color: rgb(255, 255, 255);">
 
-    </div>
-
-    <style>
-
 table, td {
   border: 1px solid black;
 }    
-      
-<table id="myTable">
-  <tr>
-    <td>Row1 cell1</td>
-    <td>Row1 cell2</td>
-  </tr>
-  <tr>
-    <td>Row2 cell1</td>
-    <td>Row2 cell2</td>
-  </tr>
-  <tr>
-    <td>Row3 cell1</td>
-    <td>Row3 cell2</td>
-  </tr>
-</table>
+ 
+
+    </div>
+
+    <style>
           
             * {
                 box-sizing: border-box;
