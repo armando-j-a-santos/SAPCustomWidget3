@@ -1,12 +1,6 @@
 (function () {
 
-var HTML = "<table border=1 width=100%><tr>";
-for(j=1;j<=10;j++)
-{
-    HTML += "<td align=center>"+String.fromCharCode(j+64)+"</td>";
-}
-HTML += "</tr></table>";
-document.getElementById("outputDiv").innerHTML = HTML;
+
 
 
 
