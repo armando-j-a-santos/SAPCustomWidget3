@@ -1,8 +1,12 @@
 (function () {
 
-
-
-
+var HTML = "<table border=1 width=100%><tr>";
+for(j=1;j<=10;j++)
+{
+    HTML += "<td align=center>"+String.fromCharCode(j+64)+"</td>";
+}
+HTML += "</tr></table>";
+document.getElementById("outputDiv").innerHTML = HTML;
 
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
@@ -12,8 +16,7 @@
         <input id="di-autocomplete-widget" class="decisionIncInputField " value="" key="" type="text"
             placeholder="..."
             style="font-size: 14px; border-color: rgb(191, 191, 191); 
-            background-color: rgb(255, 255, 255);"  
- 
+            background-color: rgb(255, 255, 255);">
 
     </div>
 
