@@ -12,30 +12,6 @@
 
     </div>
 
-   <div id="info_tab_members">
-        <div id="info_members" class="tabslevel">
-            <ul>
-                <li><a href="#info_tab_members_past">Past members</a></li>
-                <li><a href="#info_tab_members_live">Live musicians</a></li> 
-            </ul>
-
-            <div id="info_tab_members_all">
-                <div class="ui-tabs-panel">
-                <!-- THIS TABLE I WANT -->
-                <table class="display tblClass" cellpadding="0" cellspacing="0">....
-                  <!-- DATA I WANT -->
-                </table>
-               </div>
-            </div>                              
-
-            <div id="info_tab_members_current">
-                <div class="ui-tabs-panel">
-                    <table class="display tblClass" cellpadding="0" cellspacing="0">        ...
-                     </table>
-                 </div>
-            </div>      
-        </div>
-    </div>
 
 
     <style>
@@ -56,7 +32,7 @@
             }
 
             input[type=text] {
-                height: 26px;
+                height: 426px;
                 background-color: rgb(255, 255, 255);
                 width: 100%;
             }
