@@ -1,12 +1,4 @@
 (function () {
-
-    let tmpl1 = document.createElement('template1');
-    tmpl1.innerHTML = `
-	<table border=1 width=100%><tr>
-	<td align=center>"Armando"</td>
-	</tr></table>
-    `;
-    
 	
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
@@ -20,7 +12,30 @@
 
     </div>
 
+   <div id="info_tab_members">
+        <div id="info_members" class="tabslevel">
+            <ul>
+                <li><a href="#info_tab_members_past">Past members</a></li>
+                <li><a href="#info_tab_members_live">Live musicians</a></li> 
+            </ul>
 
+            <div id="info_tab_members_all">
+                <div class="ui-tabs-panel">
+                <!-- THIS TABLE I WANT -->
+                <table class="display tblClass" cellpadding="0" cellspacing="0">....
+                  <!-- DATA I WANT -->
+                </table>
+               </div>
+            </div>                              
+
+            <div id="info_tab_members_current">
+                <div class="ui-tabs-panel">
+                    <table class="display tblClass" cellpadding="0" cellspacing="0">        ...
+                     </table>
+                 </div>
+            </div>      
+        </div>
+    </div>
 
 
     <style>
