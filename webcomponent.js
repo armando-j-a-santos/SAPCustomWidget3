@@ -1,5 +1,4 @@
 (function () {
-	
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
 
@@ -10,9 +9,12 @@
             style="font-size: 14px; border-color: rgb(191, 191, 191); 
             background-color: rgb(255, 255, 255);">
 
+table, td {
+  border: 1px solid black;
+}    
+ 
+
     </div>
-
-
 
     <style>
           
@@ -32,7 +34,7 @@
             }
 
             input[type=text] {
-                height: 426px;
+                height: 446px;
                 background-color: rgb(255, 255, 255);
                 width: 100%;
             }
