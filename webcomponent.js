@@ -1,13 +1,13 @@
 (function () {
 
-var HTML = "<table border=1 width=100%><tr>";
-for(j=1;j<=10;j++)
-{
-    HTML += "<td align=center>"+String.fromCharCode(j+64)+"</td>";
-}
-HTML += "</tr></table>";
-document.getElementById("outputDiv").innerHTML = HTML;
-
+    let tmpl1 = document.createElement('template1');
+    tmpl1.innerHTML = `
+	<table border=1 width=100%><tr>
+	<td align=center>"Armando"</td>
+	</tr></table>
+    `;
+    
+	
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
 
@@ -19,6 +19,9 @@ document.getElementById("outputDiv").innerHTML = HTML;
             background-color: rgb(255, 255, 255);">
 
     </div>
+
+
+
 
     <style>
           
