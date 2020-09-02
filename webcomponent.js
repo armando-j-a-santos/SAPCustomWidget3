@@ -5,19 +5,15 @@
     <div id="di-autocomplete-main"
     class="decisionIncComponentWidgetPanel">
         <input id="di-autocomplete-widget" class="decisionIncInputField " value="" key="" type="text"
-            placeholder="..."
+            placeholder="Enter Text..."
             style="font-size: 14px; border-color: rgb(191, 191, 191); 
             background-color: rgb(255, 255, 255);">
-
-table, td {
-  border: 1px solid black;
-}    
- 
 
     </div>
 
     <style>
-          
+
+                    
             * {
                 box-sizing: border-box;
             }
@@ -34,7 +30,7 @@ table, td {
             }
 
             input[type=text] {
-                height: 446px;
+                height: 326px;
                 background-color: rgb(255, 255, 255);
                 width: 100%;
             }
