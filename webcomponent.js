@@ -10,7 +10,7 @@ for(j=1; j<=10; j++){
     cell.setAttribute('align','center')
     cell.appendChild(text);
 }
-document.getElementById("outputDiv").appendChild(table);
+
 
 
     let tmpl = document.createElement('template');
