@@ -3,113 +3,117 @@
     tmpl.innerHTML = `
 
 <div id="table">
-        <tr>
-            <th class="column1">Header 1A</th>
-            <th class="column2">Header 2A</th>
-            <th class="column3">Header 3A</th>
-            <th class="column4">Header 4A</th>
-        </tr>
-        <tr>
-            <td class="column1">line 1 column 1</td>
-            <td class="column2">line 1 column 2</td>
-            <td class="column3">line 1 column 3</td>
-            <td class="column4">line 2 column 4</td>
-        </tr>
-        <tr>
-            <td class="column1">line 2 column 1</td>
-            <td class="column2">line 2 column 2</td>
-            <td class="column3">line 2 column 3</td>
-            <td class="column4">line 2 column 4</td>
-        </tr>
-        <tr>
-            <td class="column1">line 3 column 1</td>
-            <td class="column2">line 3 column 2</td>
-            <td class="column3">line 3 column 3 (more content)</td>
-            <td class="column4">line 3 column 4</td>
-        </tr>
+<div class="testTable">
+	<div class="testRow">
+		<div class="testColumn1">
+			aa
+		</div>
+		<div class="testColumn2">
+			bb<br/>
+			bbb2
+		</div>
+		<div class="testColumn3">
+			cc<br/>
+			cccc2
+		</div>
+		<div class="testColumn4">
+			dddddd<br/>
+			dddddd
+		</div>
+		
+	</div>
+	<div class="testRow">
+		<div class="testColumn1">
+			aa
+		</div>
+		<div class="testColumn2">
+			bb<br/>
+			bbb2
+		</div>
+		<div class="testColumn3">
+			cc<br/>
+			cccc2
+		</div>
+		<div class="testColumn4">
+			dddddd<br/>
+			dddddd
+		</div>
+		
+	</div>
+	
+	<div class="testRow">
+		<div class="testColumn1">
+			aaa aaa
+		</div>
+		<div class="testColumn2">
+			bb<br/>
+			bbb2<br/>
+			bbbbbbbbbbbbbbbbbbbb3
+			
+		</div>
+		<div class="testColumn3">
+			cccccc<br/>
+			
+		</div>
+		<div class="testColumn4">
+			ddddd<br/>
+			ddd
+		</div>
+	
+	</div>
+</div>
+
 </div>
 
     <style>
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
-        .table{
-            table-layout:fixed;
-            width: 333px;
-            border-width: 1px;
-            border-spacing: 2px;
-            border-style: solid;
-            border-color: black;
-            border-collapse: collapse;
-        }
+.div.testRow{
+	display: table-row; width: 100%; 
+    white-space: nowrap;
+	vertical-align:top;
+	padding:0;
+	margin:0;
+	
+}
 
-        .table th, table td
-        {
-            border-width: 1px;
-            padding: 1px;
-            border-style: solid;
-            border-color: black;
-            border-collapse: collapse;
-        }
+.div.testColumn1{
+	display: table-cell; height:100%; min-width: 25%; background-color: #CCD9FF;	
+	vertical-align:top;
+	padding: 0.2em;
+	
+	border: 1px solid black;
+	margin:0;
 
-        .table th.column1, table td.column1{
-            width:60px;
-            background-color:#CCD9FF;
-        }
+}
 
-        .table th.column2, table td.column2{
-            width:100px;
-            background-color:#ECFFE5;
-        }
+.div.testColumn2{
+	display: table-cell; height:100%; min-width: 25%;background-color: #ECFFE5;	
+	vertical-align:top;
+	padding: 0.2em;
+	
+	border: 1px solid black;
+	margin:0;
+	
+}
+.div.testColumn3{
+	display: table-cell; height:100%; min-width: 25%;background-color: #FFEBE5;	
+	vertical-align:top;
+	padding: 0.2em;
+	
+	border: 1px solid black;
+	margin:0;
 
-        .table th.column3, table td.column3{
-            width:60px;
-            background-color:#FFEBE5;
-        }
+}
 
-        .table th.column4, table td.column4{
-            width:100px;
-            background-color: #FFFFCC;
-        }
+.div.testColumn4{
+	display: table-cell; height:100%; min-width: 25%;background-color: #FFFFCC;	
+	vertical-align:top;
+	padding: 0.2em;
 
-        .div#tablecontainer
-        {
-            width:335px;
-            border-top:1px solid black;
-            background:url(http://i.stack.imgur.com/ZsO5U.png) TOP LEFT REPEAT-Y;
-        }
-
-        .div.tablecontainerrow
-        {
-            clear:both;
-            overflow:hidden;
-            border:1px solid black;
-            border-top:none;
-        }
-
-        .div#tablecontainer div div.column1
-        {
-            width: 62px;
-            float:left;
-        }
-
-        .div#tablecontainer div div.column2
-        {
-            width: 104px;
-            float:left;
-        }
-
-        .div#tablecontainer div div.column3
-        {
-            width: 62px;
-            float:left;
-        }
-
-        .div#tablecontainer div div.column4
-        {
-            width: 104px;
-            float:left;
-        }
-
+	border: 1px solid black;
+	margin:0;
+}
     </style>
     `;
 
