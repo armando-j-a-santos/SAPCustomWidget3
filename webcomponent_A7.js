@@ -13,10 +13,10 @@
 
 <div id="table">
         <tr>
-            <th class="column1">Header 1</th>
-            <th class="column2">Header 2</th>
-            <th class="column3">Header 3</th>
-            <th class="column4">Header 4</th>
+            <th class="column1">Header 1A</th>
+            <th class="column2">Header 2A</th>
+            <th class="column3">Header 3A</th>
+            <th class="column4">Header 4A</th>
         </tr>
         <tr>
             <td class="column1">line 1 column 1</td>
@@ -282,7 +282,7 @@
             background-color:#FFEBE5;
         }
 
-        table th.column4, table td.column4{
+        .table th.column4, table td.column4{
             width:100px;
             background-color: #FFFFCC;
         }
