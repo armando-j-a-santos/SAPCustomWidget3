@@ -247,6 +247,85 @@
                 outline: none;
             }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+        table{
+            table-layout:fixed;
+            width: 333px;
+            border-width: 1px;
+            border-spacing: 2px;
+            border-style: solid;
+            border-color: black;
+            border-collapse: collapse;
+        }
+
+        table th, table td
+        {
+            border-width: 1px;
+            padding: 1px;
+            border-style: solid;
+            border-color: black;
+            border-collapse: collapse;
+        }
+
+        table th.column1, table td.column1{
+            width:60px;
+            background-color:#CCD9FF;
+        }
+
+        table th.column2, table td.column2{
+            width:100px;
+            background-color:#ECFFE5;
+        }
+
+        table th.column3, table td.column3{
+            width:60px;
+            background-color:#FFEBE5;
+        }
+
+        table th.column4, table td.column4{
+            width:100px;
+            background-color: #FFFFCC;
+        }
+
+        div#tablecontainer
+        {
+            width:335px;
+            border-top:1px solid black;
+            background:url(http://i.stack.imgur.com/ZsO5U.png) TOP LEFT REPEAT-Y;
+        }
+
+        div.tablecontainerrow
+        {
+            clear:both;
+            overflow:hidden;
+            border:1px solid black;
+            border-top:none;
+        }
+
+        div#tablecontainer div div.column1
+        {
+            width: 62px;
+            float:left;
+        }
+
+        div#tablecontainer div div.column2
+        {
+            width: 104px;
+            float:left;
+        }
+
+        div#tablecontainer div div.column3
+        {
+            width: 62px;
+            float:left;
+        }
+
+        div#tablecontainer div div.column4
+        {
+            width: 104px;
+            float:left;
+        }
+
     </style>
     `;
 
