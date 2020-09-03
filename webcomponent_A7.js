@@ -245,8 +245,8 @@
             this._keys = [];
             this._currentFocus;
             this._inpId = 'di-autocomplete-widget';
-            this._divElemnt = this._shadowRoot.getElementById("di-autocomplete-main");
-            this._inpField = this._shadowRoot.getElementById("di-autocomplete-widget");
+            //this._divElemnt = this._shadowRoot.getElementById("di-autocomplete-main");
+            //this._inpField = this._shadowRoot.getElementById("di-autocomplete-widget");
             
             this._armando = this._shadowRoot.getElementById("table");
             
