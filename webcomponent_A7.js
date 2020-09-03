@@ -41,7 +41,7 @@
             }
 
             input[type=text] {
-                height: 86px;
+                height: 300px;
                 background-color: rgb(255, 255, 255);
                 width: 100%;
             }
@@ -253,12 +253,7 @@
             this._listStyle = "font-family: Arial; font-size: 14px; color: rgb(51, 51, 51)";
             this._listLimit = 5;
 
-
-
-
-
             // autocomplete(this._inpField, countries);
-
 
         }
 
