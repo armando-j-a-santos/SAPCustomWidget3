@@ -11,6 +11,17 @@
 
     </div>
 
+<div id="table">
+             <div class="row" id="row" align="center">
+                <div id="cell"><input type="checkbox" name="chkAll" class="chkAll" value="1" /></div>
+                <div id="cell"><strong>Item Id </strong></div>
+                <div id="cell"><strong>Item</strong></div>
+                <div id="cell"><strong>Type</strong></div>
+                <div id="cell"><strong>Rate</strong></div>
+                <div id="cell"><strong>Quantity</strong></div>
+                <div id="cell"><strong>Price</strong></div>
+             </div>
+
     <style>
 
                     
