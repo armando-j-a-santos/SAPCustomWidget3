@@ -12,14 +12,30 @@
     </div>
 
 <div id="table">
-             <div class="row" id="row" align="center">
-                <div id="cell"><input type="checkbox" name="chkAll" class="chkAll" value="1" /></div>
-                <div id="cell"><strong>Item Id </strong></div>
-                <div id="cell"><strong>Item</strong></div>
-                <div id="cell"><strong>Type</strong></div>
-                <div id="cell"><strong>Rate</strong></div>
-                <div id="cell"><strong>Quantity</strong></div>
-                <div id="cell"><strong>Price</strong></div>
+        <tr>
+            <th class="column1">Header 1</th>
+            <th class="column2">Header 2</th>
+            <th class="column3">Header 3</th>
+            <th class="column4">Header 4</th>
+        </tr>
+        <tr>
+            <td class="column1">line 1 column 1</td>
+            <td class="column2">line 1 column 2</td>
+            <td class="column3">line 1 column 3</td>
+            <td class="column4">line 2 column 4</td>
+        </tr>
+        <tr>
+            <td class="column1">line 2 column 1</td>
+            <td class="column2">line 2 column 2</td>
+            <td class="column3">line 2 column 3</td>
+            <td class="column4">line 2 column 4</td>
+        </tr>
+        <tr>
+            <td class="column1">line 3 column 1</td>
+            <td class="column2">line 3 column 2</td>
+            <td class="column3">line 3 column 3 (more content)</td>
+            <td class="column4">line 3 column 4</td>
+        </tr>
 </div>
 
     <style>
