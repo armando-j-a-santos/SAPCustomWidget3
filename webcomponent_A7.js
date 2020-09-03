@@ -3,66 +3,25 @@
     tmpl.innerHTML = `
 
 <div id="table">
-<div class="testTable">
-	<div class="testRow">
-		<div class="testColumn1">
-			Armando
+	<div class="testTable">
+		<div class="testRow">
+			<div class="testColumn1">
+				Armando
+			</div>
+			<div class="testColumn2">
+				Santos<br/>
+				bbb2
+			</div>
+			<div class="testColumn3">
+				Carmem<br/>
+				cccc2
+			</div>
+			<div class="testColumn4">
+				Caldeira<br/>
+				dddddd
+			</div>
 		</div>
-		<div class="testColumn2">
-			Santos<br/>
-			bbb2
-		</div>
-		<div class="testColumn3">
-			Carmem<br/>
-			cccc2
-		</div>
-		<div class="testColumn4">
-			Caldeira<br/>
-			dddddd
-		</div>
-		
 	</div>
-	<div class="testRow">
-		<div class="testColumn1">
-			aa
-		</div>
-		<div class="testColumn2">
-			bb<br/>
-			bbb2
-		</div>
-		<div class="testColumn3">
-			cc<br/>
-			cccc2
-		</div>
-		<div class="testColumn4">
-			dddddd<br/>
-			dddddd
-		</div>
-		
-	</div>
-	
-	<div class="testRow">
-		<div class="testColumn1">
-			aaa aaa
-		</div>
-		<div class="testColumn2">
-			bb<br/>
-			bbb2<br/>
-			bbbbbbbbbbbbbbbbbbbb3
-			
-		</div>
-		<div class="testColumn3">
-			cccccc<br/>
-			
-		</div>
-		<div class="testColumn4">
-			ddddd<br/>
-			ddd
-		</div>
-	
-	</div>
-</div>
-
 </div>
 
     <style>
