@@ -6,18 +6,18 @@
 <div class="testTable">
 	<div class="testRow">
 		<div class="testColumn1">
-			aa
+			Armando
 		</div>
 		<div class="testColumn2">
-			bb<br/>
+			Santos<br/>
 			bbb2
 		</div>
 		<div class="testColumn3">
-			cc<br/>
+			Carmem<br/>
 			cccc2
 		</div>
 		<div class="testColumn4">
-			dddddd<br/>
+			Caldeira<br/>
 			dddddd
 		</div>
 		
@@ -68,7 +68,7 @@
     <style>
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
-.div.testRow{
+div.testRow{
 	display: table-row; width: 100%; 
     white-space: nowrap;
 	vertical-align:top;
@@ -77,7 +77,7 @@
 	
 }
 
-.div.testColumn1{
+div.testColumn1{
 	display: table-cell; height:100%; min-width: 25%; background-color: #CCD9FF;	
 	vertical-align:top;
 	padding: 0.2em;
@@ -87,7 +87,7 @@
 
 }
 
-.div.testColumn2{
+div.testColumn2{
 	display: table-cell; height:100%; min-width: 25%;background-color: #ECFFE5;	
 	vertical-align:top;
 	padding: 0.2em;
@@ -96,7 +96,8 @@
 	margin:0;
 	
 }
-.div.testColumn3{
+
+div.testColumn3{
 	display: table-cell; height:100%; min-width: 25%;background-color: #FFEBE5;	
 	vertical-align:top;
 	padding: 0.2em;
@@ -106,7 +107,7 @@
 
 }
 
-.div.testColumn4{
+div.testColumn4{
 	display: table-cell; height:100%; min-width: 25%;background-color: #FFFFCC;	
 	vertical-align:top;
 	padding: 0.2em;
