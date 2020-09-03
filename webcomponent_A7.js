@@ -41,7 +41,7 @@
             }
 
             input[type=text] {
-                height: 300px;
+                height: 10px;
                 background-color: rgb(255, 255, 255);
                 width: 100%;
             }
