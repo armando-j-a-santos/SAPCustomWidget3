@@ -248,7 +248,7 @@
             }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
-        table{
+        .table{
             table-layout:fixed;
             width: 333px;
             border-width: 1px;
@@ -258,7 +258,7 @@
             border-collapse: collapse;
         }
 
-        table th, table td
+        .table th, table td
         {
             border-width: 1px;
             padding: 1px;
@@ -267,17 +267,17 @@
             border-collapse: collapse;
         }
 
-        table th.column1, table td.column1{
+        .table th.column1, table td.column1{
             width:60px;
             background-color:#CCD9FF;
         }
 
-        table th.column2, table td.column2{
+        .table th.column2, table td.column2{
             width:100px;
             background-color:#ECFFE5;
         }
 
-        table th.column3, table td.column3{
+        .table th.column3, table td.column3{
             width:60px;
             background-color:#FFEBE5;
         }
@@ -287,14 +287,14 @@
             background-color: #FFFFCC;
         }
 
-        div#tablecontainer
+        .div#tablecontainer
         {
             width:335px;
             border-top:1px solid black;
             background:url(http://i.stack.imgur.com/ZsO5U.png) TOP LEFT REPEAT-Y;
         }
 
-        div.tablecontainerrow
+        .div.tablecontainerrow
         {
             clear:both;
             overflow:hidden;
@@ -302,25 +302,25 @@
             border-top:none;
         }
 
-        div#tablecontainer div div.column1
+        .div#tablecontainer div div.column1
         {
             width: 62px;
             float:left;
         }
 
-        div#tablecontainer div div.column2
+        .div#tablecontainer div div.column2
         {
             width: 104px;
             float:left;
         }
 
-        div#tablecontainer div div.column3
+        .div#tablecontainer div div.column3
         {
             width: 62px;
             float:left;
         }
 
-        div#tablecontainer div div.column4
+        .div#tablecontainer div div.column4
         {
             width: 104px;
             float:left;
