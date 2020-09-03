@@ -7,7 +7,7 @@
         <input id="di-autocomplete-widget" class="decisionIncInputField " value="" key="" type="text"
             placeholder="Amarelo..."
             style="font-size: 14px; border-color: rgb(191, 191, 191); 
-            background-color: rgb(250, 249, 175);">
+            background-color: rgb(125, 166, 232);">
 
     </div>
 
@@ -30,7 +30,7 @@
             }
 
             input[type=text] {
-                height: 26px;
+                height: 86px;
                 background-color: rgb(255, 255, 255);
                 width: 100%;
             }
