@@ -5,7 +5,7 @@
     <div id="di-autocomplete-main"
     class="decisionIncComponentWidgetPanel">
         <input id="di-autocomplete-widget" class="decisionIncInputField " value="" key="" type="text"
-            placeholder="Amarelo..."
+            placeholder="»»» ..."
             style="font-size: 14px; border-color: rgb(191, 191, 191); 
             background-color: rgb(125, 166, 232);">
 
