@@ -244,7 +244,7 @@
             this._values = [];
             this._keys = [];
             this._currentFocus;
-            this._inpId = 'di-autocomplete-widget';
+            //this._inpId = 'di-autocomplete-widget';
             //this._divElemnt = this._shadowRoot.getElementById("di-autocomplete-main");
             //this._inpField = this._shadowRoot.getElementById("di-autocomplete-widget");
             
