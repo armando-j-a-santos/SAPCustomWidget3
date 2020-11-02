@@ -4,7 +4,7 @@
 
 <div id="table">
 	<div class="testTable">
-		<div class="testRow">
+		<div class="testRow1">
 			<div class="testColumn1">
 				Armando
 			</div>
@@ -20,6 +20,8 @@
 				Caldeira<br/>
 				dddddd
 			</div>
+		</div>
+		<div class="testRow2">
 			<div class="testColumn1">
 				cell21
 			</div>
@@ -33,7 +35,6 @@
 			<div class="testColumn4">
 				cell24
 			</div>
-
 		</div>
 	</div>
 </div>
