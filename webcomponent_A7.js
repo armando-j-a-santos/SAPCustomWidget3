@@ -2,7 +2,7 @@
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
 
-<div id="table">
+<div id="table" style="width:100%">
 	<div class="testTable">
 		<div class="testRow">
 			<div class="testColumn1">
