@@ -4,7 +4,7 @@
 
 <div id="table">
 	<div class="testTable">
-		<div class="testRow1">
+		<div class="testRow">
 			<div class="testColumn1">
 				Armando
 			</div>
@@ -21,7 +21,7 @@
 				dddddd
 			</div>
 		</div>
-		<div class="testRow2">
+		<div class="testRow">
 			<div class="testColumn1">
 				cell21
 			</div>
@@ -44,7 +44,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 div.testRow{
 	display: table-row; width: 100%; 
-    white-space: nowrap;
+        white-space: nowrap;
 	vertical-align:top;
 	padding:0;
 	margin:0;
