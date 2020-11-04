@@ -115,7 +115,17 @@ div.testColumn4{
 
         }
 
+        passTableValues(textsArr) {
 
+            for (let i = 0; i < textsArr.length; i++) {
+                let index = this._keys.indexOf(textsArr[i]);
+                if (index === -1) {
+		    console.log(textsArr[i]);
+                }
+            }
+
+        }
+	    
         addItem(key, text) {
             let index = this._keys.indexOf(key);
             if (index === -1) {
