@@ -84,26 +84,6 @@
 				}
 			]
 		},
-		"setInputStyle": {
-			"description": "Overwrites the default style attribute of the input field",
-			"parameters": [
-				{
-					"name": "styleStr",
-					"type": "string",
-					"description": "String with one or multiple style entries"
-				}
-			]
-		},
-		"setListStyle": {
-			"description": "Overwrites the default style attribute of the lists in the search",
-			"parameters": [
-				{
-					"name": "styleStr",
-					"type": "string",
-					"description": "String with one or multiple style entries"
-				}
-			]
-		},
 		"setListLimit": {
 			"description": "Sets the maximum matching entries shown at the same time",
 			"parameters": [
