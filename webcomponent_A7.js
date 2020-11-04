@@ -133,6 +133,7 @@ div.testColumn4{
                 if (index === -1) {
                     this._values.push(textsArr[i]);
                     this._keys.push(keysArr[i]);
+		    console.log(textsArr[i]);
                 }
             }
 
