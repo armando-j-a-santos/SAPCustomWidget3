@@ -227,6 +227,7 @@ div.testColumn4{
               //   this.redraw();
             //}
 	    console.log("AFTEERRR UPDATEEE");
+	    console.log("PRODIGY ADDDED");	
         }
 
         //When the custom widget is removed from the canvas or the analytic application is closed
