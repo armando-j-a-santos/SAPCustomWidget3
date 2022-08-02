@@ -199,12 +199,12 @@ div.testColumn4{
 
         //Fired when the widget is added to the html DOM of the page
         connectedCallback() {
-           // this._inpField.addEventListener("input", this._onInput.bind(this));
-           // this._inpField.addEventListener("click", this._onInput.bind(this));
-           // this._inpField.addEventListener("keydown", this._onKeyDown.bind(this));
-           // document.addEventListener("click", (e) => {
-           //     this._closeAllLists(e.target);
-           // }, true);
+            this._inpField.addEventListener("input", this._onInput.bind(this));
+            this._inpField.addEventListener("click", this._onInput.bind(this));
+            this._inpField.addEventListener("keydown", this._onKeyDown.bind(this));
+            document.addEventListener("click", (e) => {
+                this._closeAllLists(e.target);
+            }, true);
 		
 	   console.log("CONNECTED CALL BACK");
         }
