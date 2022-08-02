@@ -82,7 +82,7 @@ div.testColumn4{
     </style>
     `;
 
-    customElements.define('com-sap-autoarmando1001', class ASANTOS extends HTMLElement {
+    customElements.define('com-sap-autoarmando1002', class ASANTOS extends HTMLElement {
 
 
         constructor() {
