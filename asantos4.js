@@ -102,7 +102,8 @@ div.testColumn4{
             this._listLimit = 5;
 
             // autocomplete(this._inpField, countries);
-
+		
+	    console.log("CONSTRUCTOR"):	
         }
 
         passTableValues(textsArr) {
