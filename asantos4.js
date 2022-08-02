@@ -1,5 +1,5 @@
 (function () {
-    let tmpl = document.createElement('template');
+    let tmpl = document.createElement('template2');
     tmpl.innerHTML = `
 <div id="table4" style="width:100%">
 	<div class="testTable">
