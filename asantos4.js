@@ -82,7 +82,7 @@ div.testColumn4{
     </style>
     `;
 
-    customElements.define('com-sap-autoarmando1000', class DiAutoComplete extends HTMLElement {
+    customElements.define('com-sap-autoarmando1002', class DiAutoComplete extends HTMLElement {
 
 
         constructor() {
