@@ -19,7 +19,7 @@
 		{
 			"kind": "styling",
 			"tag": "com-sap-sample-helloworld3-aps",
-            "url": "https://davidhstocker.github.io/SAC_CustomWidget_HelloWorld_3/aps_webcomponent.js",
+            "url": "https://armando-j-a-santos.github.io/SAPCustomWidget3/HelloWord.js",
 			"integrity": "",
             "ignoreIntegrity" : true
 		}
