@@ -82,7 +82,7 @@ div.testColumn4{
     </style>
     `;
 
-    customElements.define('com-sap-autoarmando1002', class MyFirstCustomWidget extends HTMLElement {
+    customElements.define('com-sap-autoarmando1003', class MyFirstCustomWidget extends HTMLElement {
 
 
         constructor() {
