@@ -1,7 +1,7 @@
 (function () {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-<div id="table2" style="width:100%">
+<div id="table3" style="width:100%">
 	<div class="testTable">
 		<div class="testRow">
 			<div class="testColumn1">
@@ -96,7 +96,7 @@ div.testColumn4{
             //this._divElemnt = this._shadowRoot.getElementById("di-autocomplete-main");
             //this._inpField = this._shadowRoot.getElementById("di-autocomplete-widget");
             
-            this._armando = this._shadowRoot.getElementById("table2");
+            this._armando = this._shadowRoot.getElementById("table3");
             
             this._listStyle = "font-family: Arial; font-size: 14px; color: rgb(51, 51, 51)";
             this._listLimit = 5;
