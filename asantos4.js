@@ -1,7 +1,7 @@
 (function () {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-<div id="table6" style="width:100%">
+<div id="table3" style="width:100%">
 	<div class="testTable">
 		<div class="testRow">
 			<div class="testColumn1">
@@ -96,7 +96,7 @@ div.testColumn4{
             //this._divElemnt = this._shadowRoot.getElementById("di-autocomplete-main");
             //this._inpField = this._shadowRoot.getElementById("di-autocomplete-widget");
             
-            this._armando = this._shadowRoot.getElementById("table6");
+            this._armando = this._shadowRoot.getElementById("table3");
             
             this._listStyle = "font-family: Arial; font-size: 14px; color: rgb(51, 51, 51)";
             this._listLimit = 5;
@@ -199,12 +199,12 @@ div.testColumn4{
 
         //Fired when the widget is added to the html DOM of the page
         connectedCallback() {
-            this._inpField.addEventListener("input", this._onInput.bind(this));
-            this._inpField.addEventListener("click", this._onInput.bind(this));
-            this._inpField.addEventListener("keydown", this._onKeyDown.bind(this));
-            document.addEventListener("click", (e) => {
-                this._closeAllLists(e.target);
-            }, true);
+           // this._inpField.addEventListener("input", this._onInput.bind(this));
+           // this._inpField.addEventListener("click", this._onInput.bind(this));
+           // this._inpField.addEventListener("keydown", this._onKeyDown.bind(this));
+           // document.addEventListener("click", (e) => {
+           //     this._closeAllLists(e.target);
+           // }, true);
 		
 	   console.log("CONNECTED CALL BACK");
         }
@@ -226,9 +226,9 @@ div.testColumn4{
 
         //When the custom widget is updated, the Custom Widget SDK framework executes this function after the update
         onCustomWidgetAfterUpdate(oChangedProperties) {
-            //if (this._firstConnection) {
-              //   this.redraw();
-            //}
+            if (this._firstConnection) {
+               this.redraw();
+            }
 	    console.log("AFTEERRR UPDATEEE");
 	    console.log("PRODIGY ADDDED");	
         }
