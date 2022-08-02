@@ -6,14 +6,14 @@
 	<div class="testTable">
 		<div class="testRow">
 			<div class="testColumn1">
-				Armando
+				Armando SANTOS
 			</div>
 			<div class="testColumn2">
 				Santos<br/>
 				bbb2
 			</div>
 			<div class="testColumn3">
-				Carmem<br/>
+				Prodigy<br/>
 				cccc2
 			</div>
 			<div class="testColumn4">
