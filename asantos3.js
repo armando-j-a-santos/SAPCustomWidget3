@@ -82,7 +82,7 @@ div.testColumn4{
     </style>
     `;
 
-    customElements.define('com-demo-asantos3', class DiAutoComplete extends HTMLElement {
+    customElements.define('com-demo-asantos2', class DiAutoComplete extends HTMLElement {
 
 
         constructor() {
