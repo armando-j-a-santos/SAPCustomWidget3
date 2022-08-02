@@ -204,6 +204,8 @@ div.testColumn4{
             document.addEventListener("click", (e) => {
                 this._closeAllLists(e.target);
             }, true);
+		
+	   console.log("CONNECTED CALL BACK");
         }
 
         //Fired when the widget is removed from the html DOM of the page (e.g. by hide)
