@@ -12,8 +12,8 @@
             		this._shadowRoot.appendChild(tmpl.content.cloneNode(true));
             		this._firstConnection = false;
 			this._tagContainer;
-   			this._tagType = "h1";
-    			this._tagText = "Hello World";
+   			this._tagType;
+    			this._tagText;
 		}
 
         //Fired when the widget is added to the html DOM of the page
