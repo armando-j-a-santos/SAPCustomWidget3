@@ -62,6 +62,17 @@
             this._tagText = value;
         }
         // End - Getters and Setters
+	    
+	    
+	//Getters and Setters
+        get headingType() {
+            return this._tagType;
+        }
+
+        set headingType(value) {
+            this._tagText = value;
+        }
+        // End - Getters and Setters
   
       
         redraw(){
