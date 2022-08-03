@@ -4,7 +4,7 @@
         <h1>Hello World by Milton Lopes</h1>
     `;
 
-    customElements.define('com-demo-hellowordmlopes1', class HelloWorld1 extends HTMLElement {
+    customElements.define('com-demo-m1', class HelloWorld1 extends HTMLElement {
 
 
 		constructor() {
