@@ -13,7 +13,7 @@
             		this._firstConnection = false;
 			this._tagContainer;
    			this._tagType = "h1";
-    			this._tagText = "Hello World Dynamically. JavaScript test";
+    			this._tagText = "Hello World Dynamically. JavaScript test as 15:03";
 		}
 
         //Fired when the widget is added to the html DOM of the page
