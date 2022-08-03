@@ -1,7 +1,7 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-        <h1>Hello World by Milton Lopes</h1>
+        <h1>Hello World by Milton Lopes & Armando Santos (Prodigy)</h1>
     `;
 
     customElements.define('com-demo-m2', class Hello1 extends HTMLElement {
