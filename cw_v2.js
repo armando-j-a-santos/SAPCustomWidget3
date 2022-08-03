@@ -4,7 +4,7 @@
         <h1>Hello World by Milton Lopes & Armando Santos (Prodigy)</h1>
     `;
 
-    customElements.define('com-demo-m2', class Hello1 extends HTMLElement {
+    customElements.define('com-demo-m3', class Hello1 extends HTMLElement {
 
 
 		constructor() {
