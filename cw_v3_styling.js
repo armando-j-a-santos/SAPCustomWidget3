@@ -42,5 +42,5 @@
 		}
 	}
 
-customElements.define("com.demo.part3", HelloWorldAps);
+customElements.define("com-demo-part3-style", HelloWorldAps);
 })();
