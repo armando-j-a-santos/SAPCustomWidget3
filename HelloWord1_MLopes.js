@@ -1,7 +1,7 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-        <h1>Hello World</h1>
+        <h1>Hello World by Milton Lopes</h1>
     `;
 
     customElements.define('com-demo-helloworldMLopes1', class HelloWorld1 extends HTMLElement {
