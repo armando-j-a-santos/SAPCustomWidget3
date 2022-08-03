@@ -3,7 +3,7 @@
     tmpl.innerHTML = `
     `;
 
-    customElements.define('com-demo-part2', class Hello1 extends HTMLElement {
+    customElements.define('com-demo-part3', class Hello1 extends HTMLElement {
 
 
 		constructor() {
